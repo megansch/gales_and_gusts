@@ -1,0 +1,10 @@
+IBTrACS WMO: International Best Tracks Archive for Climate Stewardship -- WMO DATA ONLY -- Version: v03r09
+Serial_Num,Season,Num,Basin,Sub_basin,Name,ISO_time,Nature,Latitude,Longitude,Wind(WMO),Pres(WMO),Center,Wind(WMO) Percentile,Pres(WMO) Percentile,Track_type
+N/A,Year,#,BB,BB,N/A,YYYY-MM-DD HH:MM:SS,N/A,deg_north,deg_east,kt,mb,N/A,%,%,N/A
+2005277N34328,2005,21, NA, NA,UNNAMED,2005-10-04 00:00:00, DS, 33.80, -31.80, 30.0, 1012.0,atcf,  17.564,   2.065,main
+2005277N34328,2005,21, NA, NA,UNNAMED,2005-10-04 06:00:00, SS, 34.80, -30.20, 30.0, 1009.0,atcf,  17.564,   9.827,main
+2005277N34328,2005,21, NA, NA,UNNAMED,2005-10-04 12:00:00, SS, 35.90, -28.50, 35.0, 1004.0,atcf,  32.605,  38.086,main
+2005277N34328,2005,21, NA, NA,UNNAMED,2005-10-04 18:00:00, SS, 37.10, -26.70, 45.0,  997.0,atcf,  50.354,  59.549,main
+2005277N34328,2005,21, NA, NA,UNNAMED,2005-10-05 00:00:00, SS, 38.80, -25.00, 45.0,  997.0,atcf,  50.354,  59.549,main
+2005277N34328,2005,21, NA, NA,UNNAMED,2005-10-05 06:00:00, ET, 41.00, -23.30, 40.0, 1000.0,atcf,  42.692,  51.073,main
+2005277N34328,2005,21, NA, NA,UNNAMED,2005-10-05 12:00:00, ET, 43.60, -23.00, 40.0, 1002.0,atcf,  42.692,  45.373,main

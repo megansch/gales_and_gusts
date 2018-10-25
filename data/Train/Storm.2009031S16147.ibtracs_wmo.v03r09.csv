@@ -1,0 +1,10 @@
+IBTrACS WMO: International Best Tracks Archive for Climate Stewardship -- WMO DATA ONLY -- Version: v03r09
+Serial_Num,Season,Num,Basin,Sub_basin,Name,ISO_time,Nature,Latitude,Longitude,Wind(WMO),Pres(WMO),Center,Wind(WMO) Percentile,Pres(WMO) Percentile,Track_type
+N/A,Year,#,BB,BB,N/A,YYYY-MM-DD HH:MM:SS,N/A,deg_north,deg_east,kt,mb,N/A,%,%,N/A
+2009031S16147,2009,03, SP, EA,ELLIE,2009-01-31 06:00:00, NR,-16.37, 148.07, 25.0,  995.0,bom,  10.794,  36.698,main
+2009031S16147,2009,03, SP, EA,ELLIE,2009-01-31 12:00:00, NR,-16.47, 147.84, 35.0,  995.0,bom,  33.664,  36.698,main
+2009031S16147,2009,03, SP, EA,ELLIE,2009-01-31 18:00:00, NR,-16.59, 147.60, 40.0,  988.0,bom,  45.047,  57.955,main
+2009031S16147,2009,03, SP, EA,ELLIE,2009-02-01 00:00:00, NR,-17.18, 147.04, 40.0,  991.0,bom,  45.047,  50.045,main
+2009031S16147,2009,03, SP, EA,ELLIE,2009-02-01 06:00:00, NR,-17.69, 146.61, 40.0,  990.0,bom,  45.047,  51.037,main
+2009031S16147,2009,03, SP, EA,ELLIE,2009-02-01 12:00:00, NR,-17.86, 146.18, 35.0,  991.0,bom,  33.664,  50.045,main
+2009031S16147,2009,03, SP, EA,ELLIE,2009-02-01 18:00:00, NR,-18.05, 145.55, 30.0,  995.0,bom,  24.615,  36.698,main

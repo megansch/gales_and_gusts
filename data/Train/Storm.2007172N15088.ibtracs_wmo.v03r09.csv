@@ -1,0 +1,11 @@
+IBTrACS WMO: International Best Tracks Archive for Climate Stewardship -- WMO DATA ONLY -- Version: v03r09
+Serial_Num,Season,Num,Basin,Sub_basin,Name,ISO_time,Nature,Latitude,Longitude,Wind(WMO),Pres(WMO),Center,Wind(WMO) Percentile,Pres(WMO) Percentile,Track_type
+N/A,Year,#,BB,BB,N/A,YYYY-MM-DD HH:MM:SS,N/A,deg_north,deg_east,kt,mb,N/A,%,%,N/A
+2007172N15088,2007,03, NI, AS,NOT NAMED,2007-06-25 03:00:00, NR, 23.50,  67.50, 25.0,  992.0,newdelhi,   2.339,  65.873,main
+2007172N15088,2007,03, NI, AS,NOT NAMED,2007-06-25 06:00:00, NR, 23.50,  67.50, 25.0,  992.0,newdelhi,   2.339,  65.873,main
+2007172N15088,2007,03, NI, AS,NOT NAMED,2007-06-25 09:00:00, NR, 23.50,  67.00, 25.0,  990.0,newdelhi,   2.339,  72.101,main
+2007172N15088,2007,03, NI, AS,NOT NAMED,2007-06-25 12:00:00, NR, 23.50,  66.50, 30.0,  988.0,newdelhi,  19.532,  79.215,main
+2007172N15088,2007,03, NI, AS,NOT NAMED,2007-06-25 15:00:00, NR, 23.50,  66.50, 30.0,  988.0,newdelhi,  19.532,  79.215,main
+2007172N15088,2007,03, NI, AS,NOT NAMED,2007-06-25 18:00:00, NR, 23.50,  66.00, 30.0,  988.0,newdelhi,  19.532,  79.215,main
+2007172N15088,2007,03, NI, AS,NOT NAMED,2007-06-25 21:00:00, NR, 23.50,  66.00, 35.0,  986.0,newdelhi,  36.613,  83.873,main
+2007172N15088,2007,03, NI, AS,NOT NAMED,2007-06-26 00:00:00, NR, 24.00,  65.00, 35.0,  988.0,newdelhi,  36.613,  79.215,main

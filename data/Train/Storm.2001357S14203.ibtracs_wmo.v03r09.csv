@@ -1,0 +1,10 @@
+IBTrACS WMO: International Best Tracks Archive for Climate Stewardship -- WMO DATA ONLY -- Version: v03r09
+Serial_Num,Season,Num,Basin,Sub_basin,Name,ISO_time,Nature,Latitude,Longitude,Wind(WMO),Pres(WMO),Center,Wind(WMO) Percentile,Pres(WMO) Percentile,Track_type
+N/A,Year,#,BB,BB,N/A,YYYY-MM-DD HH:MM:SS,N/A,deg_north,deg_east,kt,mb,N/A,%,%,N/A
+2001357S14203,2002,03, SP, MM,VICKY,2001-12-23 06:00:00, NR,-13.70,-157.10,  0.0, 1004.0,nadi,-100.000,   2.172,main
+2001357S14203,2002,03, SP, MM,VICKY,2001-12-23 12:00:00, NR,-13.30,-157.00,  0.0, 1004.0,nadi,-100.000,   2.172,main
+2001357S14203,2002,03, SP, MM,VICKY,2001-12-23 18:00:00, NR,-12.90,-157.10,  0.0, 1002.0,nadi,-100.000,   5.822,main
+2001357S14203,2002,03, SP, MM,VICKY,2001-12-24 00:00:00, NR,-12.50,-157.30,  0.0,  999.0,nadi,-100.000,  15.535,main
+2001357S14203,2002,03, SP, MM,VICKY,2001-12-24 06:00:00, NR,-12.60,-157.50,  0.0,  996.0,nadi,-100.000,  29.351,main
+2001357S14203,2002,03, SP, MM,VICKY,2001-12-24 12:00:00, NR,-12.80,-157.60,  0.0,  996.0,nadi,-100.000,  29.351,main
+2001357S14203,2002,03, SP, MM,VICKY,2001-12-24 18:00:00, NR,-13.60,-157.30,  0.0,  997.0,nadi,-100.000,  23.077,main

@@ -1,0 +1,11 @@
+IBTrACS WMO: International Best Tracks Archive for Climate Stewardship -- WMO DATA ONLY -- Version: v03r09
+Serial_Num,Season,Num,Basin,Sub_basin,Name,ISO_time,Nature,Latitude,Longitude,Wind(WMO),Pres(WMO),Center,Wind(WMO) Percentile,Pres(WMO) Percentile,Track_type
+N/A,Year,#,BB,BB,N/A,YYYY-MM-DD HH:MM:SS,N/A,deg_north,deg_east,kt,mb,N/A,%,%,N/A
+2008280N19268,2008,13, NA, GM,MARCO,2008-10-06 00:00:00, TS, 18.50, -91.70, 25.0, 1006.0,atcf,   4.993,  26.787,main
+2008280N19268,2008,13, NA, GM,MARCO,2008-10-06 06:00:00, TS, 18.60, -92.70, 30.0, 1005.0,atcf,  17.564,  32.141,main
+2008280N19268,2008,13, NA, GM,MARCO,2008-10-06 12:00:00, TS, 18.90, -93.70, 40.0, 1002.0,atcf,  42.692,  45.373,main
+2008280N19268,2008,13, NA, GM,MARCO,2008-10-06 18:00:00, TS, 19.40, -94.50, 50.0,  999.0,atcf,  58.600,  55.831,main
+2008280N19268,2008,13, NA, GM,MARCO,2008-10-07 00:00:00, TS, 19.70, -95.20, 55.0,  998.0,atcf,  64.336,  57.575,main
+2008280N19268,2008,13, NA, GM,MARCO,2008-10-07 06:00:00, TS, 19.80, -95.90, 55.0,  998.0,atcf,  64.336,  57.575,main
+2008280N19268,2008,13, NA, NA,MARCO,2008-10-07 12:00:00, TS, 19.90, -96.50, 55.0,  998.0,atcf,  64.336,  57.575,main
+2008280N19268,2008,13, NA, NA,MARCO,2008-10-07 18:00:00, TS, 19.90, -96.90, 30.0, 1007.0,atcf,  17.564,  21.488,main
