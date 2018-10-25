@@ -53,7 +53,7 @@ def format_train_df(hurricane_name, size, latitude, longitude, wind,
     return df_all_data
 
 
-def read_data(data_dir):
+def read_data(data_dir, all):
     train_data_files = os.listdir(os.path.join(data_dir))
 
     df_all_data = pd.DataFrame()
@@ -61,6 +61,8 @@ def read_data(data_dir):
     for file in train_data_files:
         print('{} files left to train.'.format((len(train_data_files) - number_read)))
         number_read += 1
+        if number_read > 10 and not all:
+            break
 
         df_read = pd.read_csv(os.path.join(data_dir,
                                            file),
