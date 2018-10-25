@@ -1,0 +1,9 @@
+IBTrACS WMO: International Best Tracks Archive for Climate Stewardship -- WMO DATA ONLY -- Version: v03r09
+Serial_Num,Season,Num,Basin,Sub_basin,Name,ISO_time,Nature,Latitude,Longitude,Wind(WMO),Pres(WMO),Center,Wind(WMO) Percentile,Pres(WMO) Percentile,Track_type
+N/A,Year,#,BB,BB,N/A,YYYY-MM-DD HH:MM:SS,N/A,deg_north,deg_east,kt,mb,N/A,%,%,N/A
+2011203N24084,2011,04, NI, BB,NOT NAMED,2011-07-22 03:00:00, NR, 23.50,  84.50, 20.0,  990.0,newdelhi,   0.594,  72.101,main
+2011203N24084,2011,04, NI, BB,NOT NAMED,2011-07-22 06:00:00, NR, 24.00,  84.00, 20.0,  990.0,newdelhi,   0.594,  72.101,main
+2011203N24084,2011,04, NI, BB,NOT NAMED,2011-07-22 09:00:00, NR, 24.00,  84.00, 20.0,  990.0,newdelhi,   0.594,  72.101,main
+2011203N24084,2011,04, NI, BB,NOT NAMED,2011-07-22 12:00:00, NR, 24.00,  83.00, 20.0,  990.0,newdelhi,   0.594,  72.101,main
+2011203N24084,2011,04, NI, BB,NOT NAMED,2011-07-22 18:00:00, NR, 24.00,  81.50, 20.0,  992.0,newdelhi,   0.594,  65.873,main
+2011203N24084,2011,04, NI, BB,NOT NAMED,2011-07-23 00:00:00, NR, 24.50,  80.50, 20.0,  992.0,newdelhi,   0.594,  65.873,main

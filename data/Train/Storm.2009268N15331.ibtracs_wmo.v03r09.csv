@@ -1,0 +1,10 @@
+IBTrACS WMO: International Best Tracks Archive for Climate Stewardship -- WMO DATA ONLY -- Version: v03r09
+Serial_Num,Season,Num,Basin,Sub_basin,Name,ISO_time,Nature,Latitude,Longitude,Wind(WMO),Pres(WMO),Center,Wind(WMO) Percentile,Pres(WMO) Percentile,Track_type
+N/A,Year,#,BB,BB,N/A,YYYY-MM-DD HH:MM:SS,N/A,deg_north,deg_east,kt,mb,N/A,%,%,N/A
+2009268N15331,2009,08, NA, NA,EIGHT,2009-09-25 06:00:00, DS, 14.80, -29.00, 20.0, 1010.0,atcf,   0.870,   5.543,main
+2009268N15331,2009,08, NA, NA,EIGHT,2009-09-25 12:00:00, DS, 15.40, -30.10, 25.0, 1009.0,atcf,   4.993,   9.827,main
+2009268N15331,2009,08, NA, NA,EIGHT,2009-09-25 18:00:00, TS, 16.10, -31.10, 30.0, 1008.0,atcf,  17.564,  15.847,main
+2009268N15331,2009,08, NA, NA,EIGHT,2009-09-26 00:00:00, TS, 16.70, -32.20, 30.0, 1008.0,atcf,  17.564,  15.847,main
+2009268N15331,2009,08, NA, NA,EIGHT,2009-09-26 06:00:00, TS, 17.20, -33.30, 30.0, 1008.0,atcf,  17.564,  15.847,main
+2009268N15331,2009,08, NA, NA,EIGHT,2009-09-26 12:00:00, TS, 17.80, -34.30, 30.0, 1008.0,atcf,  17.564,  15.847,main
+2009268N15331,2009,08, NA, NA,EIGHT,2009-09-26 18:00:00, TS, 18.60, -35.20, 25.0, 1008.0,atcf,   4.993,  15.847,main

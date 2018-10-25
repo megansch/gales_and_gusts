@@ -1,0 +1,9 @@
+IBTrACS WMO: International Best Tracks Archive for Climate Stewardship -- WMO DATA ONLY -- Version: v03r09
+Serial_Num,Season,Num,Basin,Sub_basin,Name,ISO_time,Nature,Latitude,Longitude,Wind(WMO),Pres(WMO),Center,Wind(WMO) Percentile,Pres(WMO) Percentile,Track_type
+N/A,Year,#,BB,BB,N/A,YYYY-MM-DD HH:MM:SS,N/A,deg_north,deg_east,kt,mb,N/A,%,%,N/A
+2000228N31180,2000,16, EP, CP,WENE,2000-08-16 00:00:00, TS, 34.40,-178.50, 45.0,    0.0,atcf,  50.354,-100.000,main
+2000228N31180,2000,16, EP, CP,WENE,2000-08-16 06:00:00, TS, 35.30,-177.90, 45.0,    0.0,atcf,  50.354,-100.000,main
+2000228N31180,2000,16, EP, CP,WENE,2000-08-16 12:00:00, TS, 36.40,-177.40, 40.0,    0.0,atcf,  42.692,-100.000,main
+2000228N31180,2000,16, EP, CP,WENE,2000-08-16 18:00:00, TS, 37.60,-176.90, 40.0,    0.0,atcf,  42.692,-100.000,main
+2000228N31180,2000,16, EP, CP,WENE,2000-08-17 00:00:00, TS, 39.00,-176.40, 40.0,    0.0,atcf,  42.692,-100.000,main
+2000228N31180,2000,16, EP, CP,WENE,2000-08-17 06:00:00, TS, 40.20,-176.00, 35.0,    0.0,atcf,  32.605,-100.000,main

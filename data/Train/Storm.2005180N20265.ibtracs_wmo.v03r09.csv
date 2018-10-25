@@ -1,0 +1,10 @@
+IBTrACS WMO: International Best Tracks Archive for Climate Stewardship -- WMO DATA ONLY -- Version: v03r09
+Serial_Num,Season,Num,Basin,Sub_basin,Name,ISO_time,Nature,Latitude,Longitude,Wind(WMO),Pres(WMO),Center,Wind(WMO) Percentile,Pres(WMO) Percentile,Track_type
+N/A,Year,#,BB,BB,N/A,YYYY-MM-DD HH:MM:SS,N/A,deg_north,deg_east,kt,mb,N/A,%,%,N/A
+2005180N20265,2005,02, NA, GM,BRET,2005-06-28 18:00:00, TS, 19.70, -95.40, 30.0, 1006.0,atcf,  17.564,  26.787,main
+2005180N20265,2005,02, NA, GM,BRET,2005-06-28 22:35:00, TS, 19.90, -95.70, 35.0, 1002.0,atcf,  32.605,  45.373,main
+2005180N20265,2005,02, NA, GM,BRET,2005-06-29 00:00:00, TS, 20.00, -95.80, 35.0, 1005.0,atcf,  32.605,  32.141,main
+2005180N20265,2005,02, NA, GM,BRET,2005-06-29 06:00:00, TS, 20.40, -96.40, 35.0, 1005.0,atcf,  32.605,  32.141,main
+2005180N20265,2005,02, NA, NA,BRET,2005-06-29 12:00:00, TS, 20.80, -97.30, 35.0, 1005.0,atcf,  32.605,  32.141,main
+2005180N20265,2005,02, NA, NA,BRET,2005-06-29 18:00:00, TS, 21.40, -98.10, 25.0, 1007.0,atcf,   4.993,  21.488,main
+2005180N20265,2005,02, NA, NA,BRET,2005-06-30 00:00:00, TS, 22.00, -98.50, 25.0, 1008.0,atcf,   4.993,  15.847,main

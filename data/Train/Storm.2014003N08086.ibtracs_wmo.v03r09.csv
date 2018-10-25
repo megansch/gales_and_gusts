@@ -1,0 +1,17 @@
+IBTrACS WMO: International Best Tracks Archive for Climate Stewardship -- WMO DATA ONLY -- Version: v03r09
+Serial_Num,Season,Num,Basin,Sub_basin,Name,ISO_time,Nature,Latitude,Longitude,Wind(WMO),Pres(WMO),Center,Wind(WMO) Percentile,Pres(WMO) Percentile,Track_type
+N/A,Year,#,BB,BB,N/A,YYYY-MM-DD HH:MM:SS,N/A,deg_north,deg_east,kt,mb,N/A,%,%,N/A
+2014003N08086,2014,01, NI, BB,ONE,2014-01-04 03:00:00, NR,  8.50,  83.50, 25.0, 1006.0,newdelhi,   2.339,   1.215,main
+2014003N08086,2014,01, NI, BB,ONE,2014-01-04 06:00:00, NR,  9.00,  83.00, 25.0, 1006.0,newdelhi,   2.339,   1.215,main
+2014003N08086,2014,01, NI, BB,ONE,2014-01-04 12:00:00, NR,  9.00,  83.00, 25.0, 1006.0,newdelhi,   2.339,   1.215,main
+2014003N08086,2014,01, NI, BB,ONE,2014-01-04 18:00:00, NR,  9.20,  82.50, 25.0, 1006.0,newdelhi,   2.339,   1.215,main
+2014003N08086,2014,01, NI, BB,ONE,2014-01-05 00:00:00, NR,  9.30,  82.00, 25.0, 1006.0,newdelhi,   2.339,   1.215,main
+2014003N08086,2014,01, NI, BB,ONE,2014-01-05 03:00:00, NR,  9.30,  82.00, 25.0, 1006.0,newdelhi,   2.339,   1.215,main
+2014003N08086,2014,01, NI, BB,ONE,2014-01-05 06:00:00, NR,  9.30,  81.80, 25.0, 1006.0,newdelhi,   2.339,   1.215,main
+2014003N08086,2014,01, NI, BB,ONE,2014-01-05 12:00:00, NR,  9.30,  81.50, 25.0, 1004.0,newdelhi,   2.339,   4.962,main
+2014003N08086,2014,01, NI, BB,ONE,2014-01-05 18:00:00, NR,  9.30,  81.30, 25.0, 1004.0,newdelhi,   2.339,   4.962,main
+2014003N08086,2014,01, NI, BB,ONE,2014-01-06 00:00:00, NR,  9.30,  81.30, 25.0, 1004.0,newdelhi,   2.339,   4.962,main
+2014003N08086,2014,01, NI, BB,ONE,2014-01-06 03:00:00, NR,  9.40,  81.00, 25.0, 1006.0,newdelhi,   2.339,   1.215,main
+2014003N08086,2014,01, NI, BB,ONE,2014-01-06 06:00:00, NR,  9.00,  80.70,  0.0,    0.0,newdelhi,-100.000,-100.000,main
+2014003N08086,2014,01, NI, BB,ONE,2014-01-06 12:00:00, NR,  8.80,  80.60, 25.0, 1006.0,newdelhi,   2.339,   1.215,main
+2014003N08086,2014,01, NI, BB,ONE,2014-01-07 00:00:00, NR,  8.00,  80.00, 25.0, 1006.0,newdelhi,   2.339,   1.215,main
