@@ -14,16 +14,17 @@ def test_them(model_lon, model_lat):
                             'data',
                             'Test')
 
+    # make directory for storing the plots
+    plot_dir = os.path.join(ROOT_DIR, 'TestPredictions')
+    if not os.path.isdir(plot_dir):
+        os.mkdir(plot_dir)
+
     df_test_data = read_test_data(test_dir)
 
     target_lat = 'Lat_i+1'
     target_lon = 'Long_i+1'
 
-    subplot_number = 1
     df_all_predictions = pd.DataFrame()
-    num_subplots = df_test_data.shape[0]
-    dim_subplots = np.ceil(np.sqrt(num_subplots))
-    figure = plt.figure()
     for hurricane_name, row in df_test_data.iterrows():
         lat = []
         lon = []
@@ -68,20 +69,18 @@ def test_them(model_lon, model_lat):
                                       'Hemisphere': row['Hemisphere'],
                                       'Ocean': row['Ocean']},
                                      dtype=object)
-        lats = df_prediction['Lat'].values[0]
-
-        plt.subplot(dim_subplots, dim_subplots, subplot_number)
+        plt.figure()
         plt.scatter(df_prediction['Lat'].values[0], df_prediction['Long'].values[0], label='Prediction')
-        plt.scatter(row['Lat'], row['Long'], label='Real', )
+        plt.scatter(row['Lat'], row['Long'], label='Real')
         plt.title(df_prediction['Name'][0])
+        plt.legend()
 
-        plt.show()
         df_all_predictions.append(df_prediction)
-        subplot_number += 1
 
-    fig_name = os.path.join(ROOT_DIR,
-                            'test_predictions.png')
-    plt.savefig(fig_name)
+        fig_name = os.path.join(plot_dir,
+                                '{}.png'.format(df_prediction['Name'][0]))
+        plt.savefig(fig_name)
+        plt.close()
 
 
 if __name__ == "__main__":

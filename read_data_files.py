@@ -61,6 +61,7 @@ def read_data(data_dir):
     for file in train_data_files:
         print('{} files left to train.'.format((len(train_data_files) - number_read)))
         number_read += 1
+
         df_read = pd.read_csv(os.path.join(data_dir,
                                            file),
                               sep=',',
@@ -131,8 +132,6 @@ def read_test_data(data_dir):
         time_string = df_read['ISO_time']
         latitude = df_read['Latitude']
         longitude = df_read['Longitude']
-        wind = df_read['Wind(WMO)']
-        pressure = df_read['Pres(WMO)']
 
         df_data = pd.DataFrame.from_records([{'Name': hurricane_name,
                                               'Time': [time_string],

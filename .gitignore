@@ -24,3 +24,6 @@ UpgradeLog*.htm
 
 # Virtual env
 venv/
+
+# Generated plots of test tracks
+TestPredictions/*

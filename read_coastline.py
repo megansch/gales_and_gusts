@@ -1,7 +1,7 @@
 import os
 import matplotlib.pyplot as plt
 import numpy as np
-import shapefile
+#import shapefile
 
 
 def parse_and_plot_coastline():
@@ -11,7 +11,7 @@ def parse_and_plot_coastline():
     shp_file = os.path.join(ROOT_DIR,
                             'us_medium_shoreline.shp')
 
-    test = shapefile.Reader(shp_file)
+    #test = shapefile.Reader(shp_file)
     all_y = []
     all_x = []
     for shape in test.shapeRecords():
