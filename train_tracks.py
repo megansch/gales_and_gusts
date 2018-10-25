@@ -1,4 +1,5 @@
 import os
+import argparse
 import pandas as pd
 from read_coastline import parse_and_plot_coastline
 from sklearn.cluster import KMeans
@@ -10,6 +11,15 @@ from test_tracks import test_them
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='run physical vulnerability assessment (PVA) calculation')
+    parser.add_argument('-a',
+                        '--all',
+                        required=False,
+                        dest='all',
+                        action='store_true',
+                        help='If passed, train on all the hurricane tracks. Otherwise, use the first ten.')
+
+    args = parser.parse_args()
     model_name = '2000_2014_Linear_train_2_predict_3rd'
     
     ROOT_DIR = os.path.dirname(__file__)
@@ -17,7 +27,7 @@ if __name__ == '__main__':
     train_dir = os.path.join(ROOT_DIR,
                              'data',
                              'Train')
-    df_train_data = read_data(train_dir)
+    df_train_data = read_data(train_dir, args.all)
     
     kmeans_model = KMeans(n_clusters=5, random_state=1)
     good_columns = df_train_data._get_numeric_data()
@@ -26,7 +36,7 @@ if __name__ == '__main__':
     
     pca_2 = PCA(2)
     plot_columns = pca_2.fit_transform(good_columns)
-        
+
     target_lat = 'Lat_i+1'
     target_lon = 'Long_i+1'
     corrs_lat = df_train_data.corr()[target_lat]
