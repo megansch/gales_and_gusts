@@ -10,24 +10,11 @@ from read_data_files import read_data
 from test_tracks import test_them
 
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='run physical vulnerability assessment (PVA) calculation')
-    parser.add_argument('-a',
-                        '--all',
-                        required=False,
-                        dest='all',
-                        action='store_true',
-                        help='If passed, train on all the hurricane tracks. Otherwise, use the first ten.')
+def train_tracks(train_dir, all):
 
-    args = parser.parse_args()
     model_name = '2000_2014_Linear_train_2_predict_3rd'
-    
-    ROOT_DIR = os.path.dirname(__file__)
-    
-    train_dir = os.path.join(ROOT_DIR,
-                             'data',
-                             'Train')
-    df_train_data = read_data(train_dir, args.all)
+
+    df_train_data = read_data(train_dir, all)
     
     kmeans_model = KMeans(n_clusters=5, random_state=1)
     good_columns = df_train_data._get_numeric_data()
